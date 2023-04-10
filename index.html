@@ -15,10 +15,11 @@
   </head>
   <body>
     <header>
-      <nav class="nav-menu">
-        <a class="logo" href="#">WebStudio</a>
-        <ul>
-          <li><a class="link" href="./index.html">Studio</a></li>
+      <!--Seccion nav menu-->
+      <nav>
+        <a class="logo" href="./index.html">WebStudio</a>
+        <ul class="nav-menu">
+          <li><a style="color: #2196f3;" class="link" href="./index.html">Studio</a></li>
           <li><a class="link" href="./portafolio.html">Portfolio</a></li>
           <li><a class="link" href="#">Contacts</a></li>
         </ul>
@@ -35,37 +36,40 @@
       </ul>
     </header>
     <main>
-      <!--Seccion studio-->
-      <section class="initial-banner">
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button class="button" type="button">Request our service</button>
+      <!--Seccion 1 banner-->
+      <section class="top-banner">
+        <h1>
+          EFFECTIVE SOLUTIONS FOR <br />
+          YOUR BUSINESS
+        </h1>
+        <button class="main-button" type="button">Request our service</button>
       </section>
-      <!--Seccion about-->
-      <section class="about">
+      <!--Seccion 2 about-->
+      <section>
         <ul>
           <li>
-            <h3>ATTENTION TO DETAILS</h3>
+            <h3 class="section-tittles">ATTENTION TO DETAILS</h3>
             <p>
               We go into all the details and processes of your business to
               develop a customized solution.
             </p>
           </li>
           <li>
-            <h3>PUNCTUALITY</h3>
+            <h3 class="section-tittles">PUNCTUALITY</h3>
             <p>
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and respect the agreed deadlines.
             </p>
           </li>
           <li>
-            <h3>PLANNING</h3>
+            <h3 class="section-tittles">PLANNING</h3>
             <p>
               You will be able to observe and participate in every phase of
               solution development and implementation.
             </p>
           </li>
           <li>
-            <h3>MODERN TECHNOLOGIES</h3>
+            <h3 class="section-tittles">MODERN TECHNOLOGIES</h3>
             <p>
               We use innovative tools to solve assigned tasks. It's time to
               simplify work processes.
@@ -73,9 +77,9 @@
           </li>
         </ul>
       </section>
-      <!--Seccion what we do-->
-      <section class="what-we-do">
-        <h2 class="what-we-do">What we do</h2>
+      <!--Seccion 3 what we do-->
+      <section>
+        <h2 class="main-tittles">What we do</h2>
         <ul>
           <li>
             <a href="images/image1.jpg">
@@ -109,11 +113,11 @@
           </li>
         </ul>
       </section>
-      <!--Seccion our team-->
-      <section class="our-team">
-        <h2 class="section-title">Our Team</h2>
+      <!--Seccion 4 our team-->
+      <section class="section-our-team">
+        <h2 class="main-tittles">Our Team</h2>
         <ul>
-          <li>
+          <li class="team-photos">
             <a href="images/image4.jpg">
               <img
                 src="images/image4.jpg"
@@ -122,10 +126,10 @@
                 height="260"
               />
             </a>
-            <h3>Christopher Walker</h3>
-            <p>Product Designer</p>
+            <h3 class="team-names">Christopher Walker</h3>
+            <p class="job-tittle">Product Designer</p>
           </li>
-          <li>
+          <li class="team-photos">
             <a href="images/image5.jpg">
               <img
                 src="images/image5.jpg"
@@ -134,10 +138,10 @@
                 height="260"
               />
             </a>
-            <h3>Kylie Evans</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-names">Kylie Evans</h3>
+            <p class="job-tittle">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-photos">
             <a href="images/image6.jpg">
               <img
                 src="images/image6.jpg"
@@ -146,10 +150,10 @@
                 height="260"
               />
             </a>
-            <h3>Ryan Harris</h3>
-            <p>Marketing</p>
+            <h3 class="team-names">Ryan Harris</h3>
+            <p class="job-tittle">Marketing</p>
           </li>
-          <li>
+          <li class="team-photos">
             <a href="images/image7.jpg">
               <img
                 src="images/image7.jpg"
@@ -158,8 +162,8 @@
                 height="260"
               />
             </a>
-            <h3>Tyler Moore</h3>
-            <p>UI Designer</p>
+            <h3 class="team-names">Tyler Moore</h3>
+            <p class="job-tittle">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -167,11 +171,13 @@
     <footer>
       <a class="logo" href="#">WebStudio</a>
       <address>
-        <ul class="contact">
-          <li>
+        <ul>
+          <li class="address">
             695 Park Ave, New York, NY 10065, <br />
             United States
           </li>
+          </ul>
+          <ul class="footer-contact">
           <li>
             <a class="link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a

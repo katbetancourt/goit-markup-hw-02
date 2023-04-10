@@ -15,12 +15,15 @@
   </head>
   <body>
     <header>
-      <!--Seccion nav bar-->
-      <nav class="nav-menu">
-        <a class="logo" href="#">WebStudio</a>
-        <ul>
+      <!--Seccion nav menu-->
+      <nav>
+        <a class="logo" href="./index.html">WebStudio</a>
+        <ul class="nav-menu">
           <li><a class="link" href="./index.html">Studio</a></li>
-          <li><a class="link" href="./portafolio.html">Portfolio</a></li>
+          <li>
+            <a  style="color: #2196f3;" class="link" href="./portafolio.html"
+              >Portfolio</a>
+          </li>
           <li><a class="link" href="#">Contacts</a></li>
         </ul>
       </nav>
@@ -34,18 +37,20 @@
       </ul>
     </header>
     <main>
-      <!--Section buttons-->
-      <ul class="buttons">
-        <li><button type="button">All</button></li>
-        <li><button type="button">Web-sites</button></li>
-        <li><button type="button">Apps</button></li>
-        <li><button type="button">Design</button></li>
-        <li><button type="button">Marketing</button></li>
-      </ul>
-      <!--Section main contect-->
-      <section class="main-content">
+      <!--Section 1 buttons-->
         <ul>
+          <li><button class="first-button" type="button">All</button></li>
           <li>
+            <button class="second-button" type="button">Web-sites</button>
+          </li>
+          <li><button class="third-button" type="button">Apps</button></li>
+          <li><button class="fourth-button" type="button">Design</button></li>
+          <li><button class="fifth-button" type="button">Marketing</button></li>
+        </ul>
+      <!--Section 2 main contect-->
+      <section>
+        <ul>
+          <li class="projects">
             <a href="#"
               ><img
                 src="images/image8.jpg"
@@ -53,10 +58,10 @@
                 height="294"
                 width="370"
             /></a>
-            <h2>Technoduck</h2>
-            <p>Web-site</p>
+            <h2 class="project-name">Technoduck</h2>
+            <p class="project-description">Web-site</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#"
               ><img
                 src="images/image9.jpg"
@@ -64,10 +69,10 @@
                 height="294"
                 width="370"
             /></a>
-            <h2>Poster New Orlean vs Golden Star</h2>
-            <p>Design</p>
+            <h2 class="project-name">Poster New Orlean vs Golden Star</h2>
+            <p class="project-description">Design</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#"
               ><img
                 src="images/image10.jpg"
@@ -75,10 +80,10 @@
                 height="294"
                 width="370"
             /></a>
-            <h2>Seafood Restaurant</h2>
-            <p>Apps</p>
+            <h2 class="project-name">Seafood Restaurant</h2>
+            <p class="project-description">Apps</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#"
               ><img
                 src="images/image11.jpg"
@@ -86,10 +91,10 @@
                 height="294"
                 width="370"
             /></a>
-            <h2>Project Prime</h2>
-            <p>Apps</p>
+            <h2 class="project-name">Project Prime</h2>
+            <p class="project-description">Apps</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#"
               ><img
                 src="images/image12.jpg"
@@ -97,10 +102,10 @@
                 height="294"
                 width="370"
             /></a>
-            <h2>Project Boxex</h2>
-            <p>Apps</p>
+            <h2 class="project-name">Project Boxex</h2>
+            <p class="project-description">Apps</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#"
               ><img
                 src="images/image13.jpg"
@@ -108,10 +113,10 @@
                 height="294"
                 width="370"
             /></a>
-            <h2>Inspiration has no borders</h2>
-            <p>Web-site</p>
+            <h2 class="project-name">Inspiration has no borders</h2>
+            <p class="project-description">Web-site</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#"
               ><img
                 src="images/image14.jpg"
@@ -119,10 +124,10 @@
                 height="294"
                 width="370"
             /></a>
-            <h2>Limited Edition</h2>
-            <p>Design</p>
+            <h2 class="project-name">Limited Edition</h2>
+            <p class="project-description">Design</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#"
               ><img
                 src="images/image15.jpg"
@@ -130,10 +135,10 @@
                 height="294"
                 width="370"
             /></a>
-            <h2>Project LAB</h2>
-            <p>Marketing</p>
+            <h2 class="project-name">Project LAB</h2>
+            <p class="project-description">Marketing</p>
           </li>
-          <li>
+          <li class="projects">
             <a href="#"
               ><img
                 src="images/image16.jpg"
@@ -141,8 +146,8 @@
                 height="294"
                 width="370"
             /></a>
-            <h2>Growing Business</h2>
-            <p>Apps</p>
+            <h2 class="project-name">Growing Business</h2>
+            <p class="project-description">Apps</p>
           </li>
         </ul>
       </section>
@@ -150,11 +155,13 @@
     <footer>
       <a class="logo" href="#">WebStudio</a>
       <address>
-        <ul class="contact">
-          <li>
+        <ul>
+          <li class="address">
             695 Park Ave, New York, NY 10065, <br />
             United States
           </li>
+        </ul>
+        <ul class="footer-contact">
           <li>
             <a class="link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
